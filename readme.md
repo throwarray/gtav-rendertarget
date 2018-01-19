@@ -1,7 +1,3 @@
-Just some experiments with render-targets
-
-#### Linking render target and
-
 __Drawing (general)__
 ```lua
 function CreateNamedRenderTargetForModel(name, model)
@@ -122,6 +118,17 @@ _See tvplaylists.xml in game files_
 
 __Determine fDuration for custom clips__
 
-"Example for a clip named mycustomclipname_1.bik with about 30min, 53940 frames and 29.970fps (rad file info!):  53940*29.970=1616581.8 but as it has to have 6 decimal points: 1616581.800000"
+_float fDuration = frames * fps to 6 decimal places_
 
-http://gtaforums.com/topic/800319-better-tv-channel-switching-mod/?hl=channel
+[Source and info](http://gtaforums.com/topic/800319-better-tv-channel-switching-mod/?hl=channel)
+
+
+__IMAGES__
+
+![alt text][preview]
+
+[preview]: https://github.com/throwarray/gtav-rendertarget/raw/master/img/rt%20(0).png "TV"
+
+![alt text][rt1]
+
+[rt1]: https://github.com/throwarray/gtav-rendertarget/raw/master/img/rt%20(1).png "TV"
