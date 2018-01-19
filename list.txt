@@ -1,0 +1,56 @@
+-- act_cinema.c
+target = "cinscreen"; model = GetHashKey("v_ilev_cin_screen")
+
+-- am_mp_yacht.c
+targets = { "port_text", "starb_text", "stern_text" }
+models = { 0x4e4ccf6e , 0x3fcbb5b2, 0x68a1d07a } --overlays
+
+-- agency_heist1.c
+target = "npcphone"; model = GetHashKey("prop_npc_phone")
+
+-- agency_heist3b.c
+target = "tvscreen"; model = 557686077
+
+-- epsilon4.c
+target = "digiscanner"; model = GetWeaponTypeModel(GetHashKey("weapon_digiscanner"))
+
+-- fameorshame_eps.c
+target = "Big_Disp";
+models = { GetHashKey("prop_huge_display_01"), GetHashKey("prop_huge_display_02") }
+
+-- fbi3.c
+target = "ECG"; model = GetHashKey("prop_ecg_01")
+
+-- lesterhandler.c
+target = "tvscreen"; model = GetHashKey("prop_laptop_lester2")
+
+
+-- ob_tv.c
+target = "tvscreen"; models = {
+	1340914825, -- floyd,
+	-897601557, -- franklins aunt
+	GetHashKey("prop_tv_flat_01"), -- franklins flat
+	GetHashKey("des_tvsmash_start"), -- jimmy
+	GetHashKey("v_ilev_mm_scre_off"), -- michael projector
+		GetHashKey("v_ilev_mm_screen2"), -- overlay (on) render target
+		GetHashKey("v_ilev_mm_screen2_vl"), -- overlay
+	GetHashKey("prop_trev_tv_01"),  -- trevor
+		GetHashKey("prop_tt_screenstatic"), -- - overlay (CreateObjectNoOffset) tv static
+}
+
+-- Breaking news scaleform on projector
+local s_news = LoadScaleForm('breaking_news')
+PushScaleformMovieFunction(s_news, "SHOW_STATIC")
+PushScaleformMovieFunctionParameterInt(1)
+PopScaleformMovieFunctionVoid()
+DrawScaleformMovie_3dNonAdditive(
+ 	s_news, --scaleform
+ 	-800.158, 173.603, 74.38,
+ 	0.0, 0.0, 69.13,
+ 	1.0, 1.0, 1.0,
+ 	3.163, 1.783, 1.0,
+ 	2
+)
+
+-- taxiservice.c
+target = "taxi"; model = GetHashKey("prop_taxi_meter_2")

@@ -1,0 +1,727 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CTVPlaylistContainer>
+  <Videos>
+    <Item>
+      <Name>CNT_PROMO1</Name>
+      <VideoFileName>CNT_Rehab_Island</VideoFileName>
+      <fDuration value="620.620667" />
+      <bNotOnDisk value="false" />
+    </Item>
+    <Item>
+      <Name>CNT_SHOW1</Name>
+      <VideoFileName>CNT_Moorehead</VideoFileName>
+      <fDuration value="24103.103516" />
+      <bNotOnDisk value="false" />
+    </Item>
+    <Item>
+      <Name>CNT_SHOW2</Name>
+      <VideoFileName>CNT_PRB2</VideoFileName>
+      <fDuration value="22601.603516" />
+      <bNotOnDisk value="false" />
+    </Item>
+    <Item>
+      <Name>CNT_ADVERT1</Name>
+      <VideoFileName>CNT_Logger_Beer</VideoFileName>
+      <fDuration value="1038.038086" />
+      <bNotOnDisk value="false" />
+    </Item>
+    <Item>
+      <Name>CNT_ADVERT3</Name>
+      <VideoFileName>CNT_Lottery</VideoFileName>
+      <fDuration value="386.386383" />
+      <bNotOnDisk value="false" />
+    </Item>
+    <Item>
+      <Name>CNT_ADVERT2</Name>
+      <VideoFileName>CNT_Mt_Zonah</VideoFileName>
+      <fDuration value="1318.318359" />
+      <bNotOnDisk value="false" />
+    </Item>
+    <Item>
+      <Name>CNT_ADVERT4</Name>
+      <VideoFileName>CNT_Bravado</VideoFileName>
+      <fDuration value="2636.636719" />
+      <bNotOnDisk value="false" />
+    </Item>
+    <Item>
+      <Name>CNT_ADVERT5</Name>
+      <VideoFileName>CNT_SA_Tourism</VideoFileName>
+      <fDuration value="1573.573608" />
+      <bNotOnDisk value="false" />
+    </Item>
+    <Item>
+      <Name>CNT_ADVERT6</Name>
+      <VideoFileName>CNT_MYSTASPOT</VideoFileName>
+      <fDuration value="1669.669800" />
+      <bNotOnDisk value="false" />
+    </Item>
+    <Item>
+      <Name>CNT_ADVERT7</Name>
+      <VideoFileName>CNT_PHAT_CHIPS</VideoFileName>
+      <fDuration value="1638.638672" />
+      <bNotOnDisk value="false" />
+    </Item>
+    <Item>
+      <Name>CNT_PROMO2</Name>
+      <VideoFileName>CNT_Implant</VideoFileName>
+      <fDuration value="1023.023071" />
+      <bNotOnDisk value="false" />
+    </Item>
+    <Item>
+      <Name>CNT_SHOW3</Name>
+      <VideoFileName>CNT_Underbelly</VideoFileName>
+      <fDuration value="12324.324219" />
+      <bNotOnDisk value="false" />
+    </Item>
+    <Item>
+      <Name>CNT_PROMO3</Name>
+      <VideoFileName>CNT_Stunt</VideoFileName>
+      <fDuration value="2051.051025" />
+      <bNotOnDisk value="false" />
+    </Item>
+    <Item>
+      <Name>CNT_PROMO4</Name>
+      <VideoFileName>CNT_Dude_Eat_Dog</VideoFileName>
+      <fDuration value="540.540588" />
+      <bNotOnDisk value="false" />
+    </Item>
+    <Item>
+      <Name>CNT_SHOW4</Name>
+      <VideoFileName>CNT_Rage</VideoFileName>
+      <fDuration value="26101.101563" />
+      <bNotOnDisk value="false" />
+    </Item>
+    <Item>
+      <Name>WZL_PROMO2</Name>
+      <VideoFileName>WZL_Serious_Cougar</VideoFileName>
+      <fDuration value="833.833862" />
+      <bNotOnDisk value="false" />
+    </Item>
+    <Item>
+      <Name>WZL_ADVERT2</Name>
+      <VideoFileName>WZL_PWASSER</VideoFileName>
+      <fDuration value="2555.555664" />
+      <bNotOnDisk value="false" />
+    </Item>
+    <Item>
+      <Name>WZL_SHOW2</Name>
+      <VideoFileName>WZL_RSR4</VideoFileName>
+      <fDuration value="23207.208984" />
+      <bNotOnDisk value="false" />
+    </Item>
+    <Item>
+      <Name>WZL_SHOW3</Name>
+      <VideoFileName>WZL_JHRS</VideoFileName>
+      <fDuration value="16330.331055" />
+      <bNotOnDisk value="false" />
+    </Item>
+    <Item>
+      <Name>WZL_SHOW4</Name>
+      <VideoFileName>WZL_FOS_EP1</VideoFileName>
+      <fDuration value="28022.023438" />
+      <bNotOnDisk value="false" />
+    </Item>
+    <Item>
+      <Name>WZL_SHOW5</Name>
+      <VideoFileName>WZL_FOS_EP2</VideoFileName>
+      <fDuration value="16845.845703" />
+      <bNotOnDisk value="false" />
+    </Item>
+    <Item>
+      <Name>WZL_PROMO1</Name>
+      <VideoFileName>WZL_Organ_Farm</VideoFileName>
+      <fDuration value="500.500488" />
+      <bNotOnDisk value="false" />
+    </Item>
+    <Item>
+      <Name>WZL_ADVERT3</Name>
+      <VideoFileName>WZL_Surano</VideoFileName>
+      <fDuration value="919.919922" />
+      <bNotOnDisk value="false" />
+    </Item>
+    <Item>
+      <Name>WZL_ADVERT4</Name>
+      <VideoFileName>WZL_Lifeinvader</VideoFileName>
+      <fDuration value="966.966919" />
+      <bNotOnDisk value="false" />
+    </Item>
+    <Item>
+      <Name>WZL_ADVERT1</Name>
+      <VideoFileName>WZL_Grand_Senora</VideoFileName>
+      <fDuration value="1195.195190" />
+      <bNotOnDisk value="false" />
+    </Item>
+    <Item>
+      <Name>WZL_ADVERT8</Name>
+      <VideoFileName>WZL_BISON</VideoFileName>
+      <fDuration value="1552.552612" />
+      <bNotOnDisk value="false" />
+    </Item>
+    <Item>
+      <Name>WZL_ADVERT7</Name>
+      <VideoFileName>WZL_EPSILON</VideoFileName>
+      <fDuration value="714.714722" />
+      <bNotOnDisk value="false" />
+    </Item>
+    <Item>
+      <Name>WZL_SHOW1</Name>
+      <VideoFileName>WZL_KFRLF</VideoFileName>
+      <fDuration value="22053.054688" />
+      <bNotOnDisk value="false" />
+    </Item>
+    <Item>
+      <Name>exerciseShow</Name>
+      <VideoFileName>FE_D_Workout</VideoFileName>
+      <fDuration value="1736.736816" />
+      <bNotOnDisk value="false" />
+    </Item>
+    <Item>
+      <Name>invaderShow</Name>
+      <VideoFileName>lester1b_1</VideoFileName>
+      <fDuration value="5328.328613" />
+      <bNotOnDisk value="false" />
+    </Item>
+    <Item>
+      <Name>invaderExp</Name>
+      <VideoFileName>lester1b_2</VideoFileName>
+      <fDuration value="380.380371" />
+      <bNotOnDisk value="false" />
+    </Item>
+    <Item>
+      <Name>righteous0</Name>
+      <VideoFileName>LO_RS_LOOP_1</VideoFileName>
+      <fDuration value="1499.499390" />
+      <bNotOnDisk value="false" />
+    </Item>
+    <Item>
+      <Name>righteous1</Name>
+      <VideoFileName>LO_RS_LOOP_2</VideoFileName>
+      <fDuration value="917.917969" />
+      <bNotOnDisk value="false" />
+    </Item>
+    <Item>
+      <Name>WZL_ADVERT6</Name>
+      <VideoFileName>WZL_Ammunation</VideoFileName>
+      <fDuration value="1388.388428" />
+      <bNotOnDisk value="false" />
+    </Item>
+    <Item>
+      <Name>WZL_ADVERT5</Name>
+      <VideoFileName>WZL_Up_And_Atom</VideoFileName>
+      <fDuration value="1695.695679" />
+      <bNotOnDisk value="false" />
+    </Item>
+    <Item>
+      <Name>END_OF_MOVIE_MARKER</Name>
+      <VideoFileName>2SecondsBlack</VideoFileName>
+      <fDuration value="60.000000" />
+      <bNotOnDisk value="false" />
+    </Item>
+    <Item>
+      <Name>WEAZEL_LOGO</Name>
+      <VideoFileName>WEAZEL_LOGO</VideoFileName>
+      <fDuration value="156.156158" />
+      <bNotOnDisk value="false" />
+    </Item>
+    <Item>
+      <Name>MP_CCTV1</Name>
+      <VideoFileName>SEC_FTG_1</VideoFileName>
+      <fDuration value="149.149139" />
+      <bNotOnDisk value="false" />
+    </Item>
+    <Item>
+      <Name>MP_CCTV2</Name>
+      <VideoFileName>SEC_FTG_2</VideoFileName>
+      <fDuration value="149.149139" />
+      <bNotOnDisk value="false" />
+    </Item>
+    <Item>
+      <Name>MOVIE_CARTOON</Name>
+      <VideoFileName>MOV_LRIGB</VideoFileName>
+      <fDuration value="18019.019531" />
+      <bNotOnDisk value="false" />
+    </Item>
+    <Item>
+      <Name>MOVIE_ARTHOUSE</Name>
+      <VideoFileName>MOV_Arthouse</VideoFileName>
+      <fDuration value="16248.248047" />
+      <bNotOnDisk value="false" />
+    </Item>
+    <Item>
+      <Name>MOVIE_ACTION</Name>
+      <VideoFileName>MOV_Meltdown</VideoFileName>
+      <fDuration value="21184.183594" />
+      <bNotOnDisk value="false" />
+    </Item>
+  </Videos>
+  <PlayListSlots>
+    <Item>
+      <Name>CNT0</Name>
+      <TVVideoInfoNames>
+        <Item>CNT_ADVERT4</Item>
+      </TVVideoInfoNames>
+    </Item>
+    <Item>
+      <Name>CNT1</Name>
+      <TVVideoInfoNames>
+        <Item>CNT_ADVERT3</Item>
+      </TVVideoInfoNames>
+    </Item>
+    <Item>
+      <Name>CNT2</Name>
+      <TVVideoInfoNames>
+        <Item>CNT_PROMO1</Item>
+      </TVVideoInfoNames>
+    </Item>
+    <Item>
+      <Name>CNT3</Name>
+      <TVVideoInfoNames>
+        <Item>CNT_SHOW1</Item>
+      </TVVideoInfoNames>
+    </Item>
+    <Item>
+      <Name>CNT4</Name>
+      <TVVideoInfoNames>
+        <Item>CNT_ADVERT1</Item>
+      </TVVideoInfoNames>
+    </Item>
+    <Item>
+      <Name>CNT5</Name>
+      <TVVideoInfoNames>
+        <Item>CNT_PROMO3</Item>
+      </TVVideoInfoNames>
+    </Item>
+    <Item>
+      <Name>CNT6</Name>
+      <TVVideoInfoNames>
+        <Item>CNT_PROMO4</Item>
+      </TVVideoInfoNames>
+    </Item>
+    <Item>
+      <Name>CNT7</Name>
+      <TVVideoInfoNames>
+        <Item>CNT_SHOW3</Item>
+      </TVVideoInfoNames>
+    </Item>
+    <Item>
+      <Name>CNT8</Name>
+      <TVVideoInfoNames>
+        <Item>CNT_ADVERT5</Item>
+      </TVVideoInfoNames>
+    </Item>
+    <Item>
+      <Name>CNT9</Name>
+      <TVVideoInfoNames>
+        <Item>CNT_SHOW2</Item>
+      </TVVideoInfoNames>
+    </Item>
+    <Item>
+      <Name>CNT10</Name>
+      <TVVideoInfoNames>
+        <Item>CNT_ADVERT2</Item>
+      </TVVideoInfoNames>
+    </Item>
+    <Item>
+      <Name>CNT11</Name>
+      <TVVideoInfoNames>
+        <Item>CNT_PROMO2</Item>
+      </TVVideoInfoNames>
+    </Item>
+    <Item>
+      <Name>CNT12</Name>
+      <TVVideoInfoNames>
+        <Item>CNT_SHOW4</Item>
+      </TVVideoInfoNames>
+    </Item>
+    <Item>
+      <Name>CNT13</Name>
+      <TVVideoInfoNames>
+        <Item>CNT_ADVERT6</Item>
+      </TVVideoInfoNames>
+    </Item>
+    <Item>
+      <Name>CNT14</Name>
+      <TVVideoInfoNames>
+        <Item>CNT_ADVERT7</Item>
+      </TVVideoInfoNames>
+    </Item>
+    <Item>
+      <Name>WZL0</Name>
+      <TVVideoInfoNames>
+        <Item>WZL_PROMO2</Item>
+      </TVVideoInfoNames>
+    </Item>
+    <Item>
+      <Name>WZL1</Name>
+      <TVVideoInfoNames>
+        <Item>WZL_ADVERT2</Item>
+      </TVVideoInfoNames>
+    </Item>
+    <Item>
+      <Name>WZL2</Name>
+      <TVVideoInfoNames>
+        <Item>WZL_SHOW2</Item>
+      </TVVideoInfoNames>
+    </Item>
+    <Item>
+      <Name>WZL3</Name>
+      <TVVideoInfoNames>
+        <Item>WZL_PROMO1</Item>
+      </TVVideoInfoNames>
+    </Item>
+    <Item>
+      <Name>WZL4</Name>
+      <TVVideoInfoNames>
+        <Item>WZL_ADVERT3</Item>
+      </TVVideoInfoNames>
+    </Item>
+    <Item>
+      <Name>WZL5</Name>
+      <TVVideoInfoNames>
+        <Item>WZL_SHOW3</Item>
+      </TVVideoInfoNames>
+    </Item>
+    <Item>
+      <Name>WZL6</Name>
+      <TVVideoInfoNames>
+        <Item>WZL_ADVERT1</Item>
+      </TVVideoInfoNames>
+    </Item>
+    <Item>
+      <Name>WZL7</Name>
+      <TVVideoInfoNames>
+        <Item>WZL_ADVERT5</Item>
+      </TVVideoInfoNames>
+    </Item>
+    <Item>
+      <Name>WZL8</Name>
+      <TVVideoInfoNames>
+        <Item>WZL_SHOW1</Item>
+      </TVVideoInfoNames>
+    </Item>
+    <Item>
+      <Name>WZL9</Name>
+      <TVVideoInfoNames>
+        <Item>WZL_ADVERT4</Item>
+      </TVVideoInfoNames>
+    </Item>
+    <Item>
+      <Name>WZL10</Name>
+      <TVVideoInfoNames>
+        <Item>WZL_SHOW4</Item>
+      </TVVideoInfoNames>
+    </Item>
+    <Item>
+      <Name>WZL11</Name>
+      <TVVideoInfoNames>
+        <Item>WZL_SHOW5</Item>
+      </TVVideoInfoNames>
+    </Item>
+    <Item>
+      <Name>WZL12</Name>
+      <TVVideoInfoNames>
+        <Item>WZL_ADVERT8</Item>
+      </TVVideoInfoNames>
+    </Item>
+    <Item>
+      <Name>WZL13</Name>
+      <TVVideoInfoNames>
+        <Item>WZL_ADVERT7</Item>
+      </TVVideoInfoNames>
+    </Item>
+    <Item>
+      <Name>family0</Name>
+      <TVVideoInfoNames>
+        <Item>exerciseShow</Item>
+      </TVVideoInfoNames>
+    </Item>
+    <Item>
+      <Name>invader0</Name>
+      <TVVideoInfoNames>
+        <Item>invaderShow</Item>
+      </TVVideoInfoNames>
+    </Item>
+    <Item>
+      <Name>invader1</Name>
+      <TVVideoInfoNames>
+        <Item>invaderExp</Item>
+      </TVVideoInfoNames>
+    </Item>
+    <Item>
+      <Name>RS0</Name>
+      <TVVideoInfoNames>
+        <Item>righteous0</Item>
+      </TVVideoInfoNames>
+    </Item>
+    <Item>
+      <Name>RS1</Name>
+      <TVVideoInfoNames>
+        <Item>righteous1</Item>
+      </TVVideoInfoNames>
+    </Item>
+    <Item>
+      <Name>PLSH1</Name>
+      <TVVideoInfoNames>
+        <Item>WZL_ADVERT2</Item>
+      </TVVideoInfoNames>
+    </Item>
+    <Item>
+      <Name>PLSH2</Name>
+      <TVVideoInfoNames>
+        <Item>WZL_ADVERT6</Item>
+      </TVVideoInfoNames>
+    </Item>
+    <Item>
+      <Name>PLSH3</Name>
+      <TVVideoInfoNames>
+        <Item>WZL_ADVERT5</Item>
+      </TVVideoInfoNames>
+    </Item>
+    <Item>
+      <Name>SL_CINEMA_CARTOON</Name>
+      <TVVideoInfoNames>
+        <Item>MOVIE_CARTOON</Item>
+      </TVVideoInfoNames>
+    </Item>
+    <Item>
+      <Name>SL_CINEMA_ARTHOUSE</Name>
+      <TVVideoInfoNames>
+        <Item>MOVIE_ARTHOUSE</Item>
+      </TVVideoInfoNames>
+    </Item>
+    <Item>
+      <Name>SL_CINEMA_ACTION</Name>
+      <TVVideoInfoNames>
+        <Item>MOVIE_ACTION</Item>
+      </TVVideoInfoNames>
+    </Item>
+    <Item>
+      <Name>SL_END_OF_MOVIE</Name>
+      <TVVideoInfoNames>
+        <Item>END_OF_MOVIE_MARKER</Item>
+      </TVVideoInfoNames>
+    </Item>
+    <Item>
+      <Name>SL_WEAZEL_LOGO</Name>
+      <TVVideoInfoNames>
+        <Item>WEAZEL_LOGO</Item>
+      </TVVideoInfoNames>
+    </Item>
+    <Item>
+      <Name>SL_MP_CCTV1</Name>
+      <TVVideoInfoNames>
+        <Item>MP_CCTV1</Item>
+      </TVVideoInfoNames>
+    </Item>
+    <Item>
+      <Name>SL_MP_CCTV2</Name>
+      <TVVideoInfoNames>
+        <Item>MP_CCTV2</Item>
+      </TVVideoInfoNames>
+    </Item>
+  </PlayListSlots>
+  <Playlists>
+    <Item>
+      <Name>PL_STD_CNT</Name>
+      <TVPlayListSlotNames>
+        <Item>CNT0</Item>
+        <Item>CNT1</Item>
+        <Item>CNT2</Item>
+        <Item>CNT13</Item>
+        <Item>CNT3</Item>
+        <Item>CNT4</Item>
+        <Item>CNT5</Item>
+        <Item>CNT6</Item>
+        <Item>CNT7</Item>
+        <Item>CNT8</Item>
+        <Item>CNT14</Item>
+        <Item>CNT9</Item>
+        <Item>CNT10</Item>
+        <Item>CNT11</Item>
+        <Item>CNT12</Item>
+      </TVPlayListSlotNames>
+    </Item>
+    <Item>
+      <Name>PL_STD_WZL</Name>
+      <TVPlayListSlotNames>
+        <Item>WZL0</Item>
+        <Item>WZL1</Item>
+        <Item>WZL12</Item>
+        <Item>WZL2</Item>
+        <Item>WZL3</Item>
+        <Item>WZL4</Item>
+        <Item>WZL5</Item>
+        <Item>WZL6</Item>
+        <Item>WZL7</Item>
+        <Item>WZL8</Item>
+        <Item>WZL9</Item>
+        <Item>WZL10</Item>
+        <Item>WZL13</Item>
+      </TVPlayListSlotNames>
+    </Item>
+    <Item>
+      <Name>PL_STD_WZL_FOS_EP2</Name>
+      <TVPlayListSlotNames>
+        <Item>WZL0</Item>
+        <Item>WZL1</Item>
+        <Item>WZL12</Item>
+        <Item>WZL2</Item>
+        <Item>WZL3</Item>
+        <Item>WZL4</Item>
+        <Item>WZL5</Item>
+        <Item>WZL6</Item>
+        <Item>WZL7</Item>
+        <Item>WZL8</Item>
+        <Item>WZL9</Item>
+        <Item>WZL11</Item>
+        <Item>WZL13</Item>
+      </TVPlayListSlotNames>
+    </Item>
+    <Item>
+      <Name>PL_LO_CNT</Name>
+      <TVPlayListSlotNames>
+        <Item>CNT1</Item>
+      </TVPlayListSlotNames>
+    </Item>
+    <Item>
+      <Name>PL_LO_WZL</Name>
+      <TVPlayListSlotNames>
+        <Item>WZL1</Item>
+        <Item>WZL3</Item>
+      </TVPlayListSlotNames>
+    </Item>
+    <Item>
+      <Name>PL_LO_RS</Name>
+      <TVPlayListSlotNames>
+        <Item>RS0</Item>
+        <Item>RS1</Item>
+        <Item>SL_END_OF_MOVIE</Item>
+      </TVPlayListSlotNames>
+    </Item>
+    <Item>
+      <Name>PL_LO_RS_CUTSCENE</Name>
+      <TVPlayListSlotNames>
+        <Item>RS0</Item>
+        <Item>RS1</Item>
+      </TVPlayListSlotNames>
+    </Item>
+    <Item>
+      <Name>PL_SP_WORKOUT</Name>
+      <TVPlayListSlotNames>
+        <Item>family0</Item>
+      </TVPlayListSlotNames>
+    </Item>
+    <Item>
+      <Name>PL_SP_INV</Name>
+      <TVPlayListSlotNames>
+        <Item>invader0</Item>
+      </TVPlayListSlotNames>
+    </Item>
+    <Item>
+      <Name>PL_SP_INV_EXP</Name>
+      <TVPlayListSlotNames>
+        <Item>invader1</Item>
+      </TVPlayListSlotNames>
+    </Item>
+    <Item>
+      <Name>PL_SP_PLSH1_INTRO</Name>
+      <TVPlayListSlotNames>
+        <Item>PLSH1</Item>
+        <Item>PLSH2</Item>
+        <Item>PLSH3</Item>
+      </TVPlayListSlotNames>
+    </Item>
+    <Item>
+      <Name>PL_CINEMA_CARTOON</Name>
+      <TVPlayListSlotNames>
+        <Item>SL_CINEMA_CARTOON</Item>
+        <Item>SL_END_OF_MOVIE</Item>
+      </TVPlayListSlotNames>
+    </Item>
+    <Item>
+      <Name>PL_CINEMA_ARTHOUSE</Name>
+      <TVPlayListSlotNames>
+        <Item>SL_CINEMA_ARTHOUSE</Item>
+        <Item>SL_END_OF_MOVIE</Item>
+      </TVPlayListSlotNames>
+    </Item>
+    <Item>
+      <Name>PL_CINEMA_ACTION</Name>
+      <TVPlayListSlotNames>
+        <Item>SL_CINEMA_ACTION</Item>
+        <Item>SL_END_OF_MOVIE</Item>
+      </TVPlayListSlotNames>
+    </Item>
+    <Item>
+      <Name>PL_CINEMA_MULTIPLAYER</Name>
+      <TVPlayListSlotNames>
+        <Item>SL_CINEMA_CARTOON</Item>
+        <Item>SL_CINEMA_ARTHOUSE</Item>
+        <Item>SL_CINEMA_ACTION</Item>
+      </TVPlayListSlotNames>
+    </Item>
+    <Item>
+      <Name>PL_CINEMA_MULTIPLAYER_NO_MELTDOWN</Name>
+      <TVPlayListSlotNames>
+        <Item>SL_CINEMA_CARTOON</Item>
+        <Item>SL_CINEMA_ARTHOUSE</Item>
+      </TVPlayListSlotNames>
+    </Item>
+    <Item>
+      <Name>PL_LES1_FAME_OR_SHAME</Name>
+      <TVPlayListSlotNames>
+        <Item>WZL10</Item>
+      </TVPlayListSlotNames>
+    </Item>
+    <Item>
+      <Name>PL_MP_WEAZEL</Name>
+      <TVPlayListSlotNames>
+        <Item>SL_WEAZEL_LOGO</Item>
+      </TVPlayListSlotNames>
+    </Item>
+    <Item>
+      <Name>PL_MP_CCTV</Name>
+      <TVPlayListSlotNames>
+        <Item>SL_MP_CCTV1</Item>
+        <Item>SL_MP_CCTV2</Item>
+      </TVPlayListSlotNames>
+    </Item>
+    <Item>
+      <Name>PL_WEB_HOWITZER</Name>
+      <TVPlayListSlotNames>
+        <Item>WZL5</Item>
+      </TVPlayListSlotNames>
+    </Item>
+    <Item>
+      <Name>PL_WEB_KFLF</Name>
+      <TVPlayListSlotNames>
+        <Item>WZL8</Item>
+      </TVPlayListSlotNames>
+    </Item>
+    <Item>
+      <Name>PL_WEB_FOS</Name>
+      <TVPlayListSlotNames>
+        <Item>WZL10</Item>
+      </TVPlayListSlotNames>
+    </Item>
+    <Item>
+      <Name>PL_WEB_RANGERS</Name>
+      <TVPlayListSlotNames>
+        <Item>WZL2</Item>
+      </TVPlayListSlotNames>
+    </Item>
+    <Item>
+      <Name>PL_WEB_RS</Name>
+      <TVPlayListSlotNames>
+        <Item>RS0</Item>
+      </TVPlayListSlotNames>
+    </Item>
+    <Item>
+      <Name>PL_WEB_PRB2</Name>
+      <TVPlayListSlotNames>
+        <Item>CNT9</Item>
+      </TVPlayListSlotNames>
+    </Item>
+  </Playlists>
+</CTVPlaylistContainer>
