@@ -68,7 +68,7 @@ function CreateNamedRenderTargetForModel(name, model)
 end
 
 function DestroyObject (entity)
-	SetEntityAsMissionEntity(entity,  false,  true)
+	SetEntityAsMissionEntity(entity,  true,  true)
 	DeleteObject(entity)
 
 	return entity
@@ -81,9 +81,9 @@ local MENU_ID = GetHashKey("bkr_prop_rt_clubhouse_plan_01a")
 local MENU_TARGET = "clubhouse_plan_01a"
 local MENU_HANDLE
 
-AddEventHandler('onResourceStop', function (...)
+AddEventHandler('onResourceStop', function (resource)
     if resource == GetCurrentResourceName() then
-        DetachEntity(MENU, 1, true)
+        print('MR.CLEAN')
         DestroyObject(MENU)
     end
 end)
@@ -92,30 +92,20 @@ end)
 Citizen.CreateThread(function()
     Wait(100)
 
-    local coords = GetEntityCoords(PlayerPedId())
-
-    MENU = SpawnObject(MENU_ID, {
-        x = coords.x,
-        y = coords.y,
-        z = coords.z
-    }, 0.0, false)
-
-    MENU_HANDLE = CreateNamedRenderTargetForModel(MENU_TARGET, MENU_ID)
-
-    local camRot
     local items = { "Item 1", "Item 2", "Item 3", "Item 4", "Item 5" }
-    local forward
-
-
-
     local currentItemIndex = 1
     local selectedItemIndex = 1
     local checkbox = true
 
-
     WarMenu.CreateMenu('test', 'Test title')
     WarMenu.CreateSubMenu('closeMenu', 'test', 'Are you sure?')
 
+
+    local camRot
+    local coords = GetEntityCoords(PlayerPedId())
+
+    MENU = SpawnObject(MENU_ID, { x = coords.x, y = coords.y, z = coords.z }, 0.0, false)
+    MENU_HANDLE = CreateNamedRenderTargetForModel(MENU_TARGET, MENU_ID)
 
     AttachEntityToEntity(
        MENU, PlayerPedId(),
@@ -125,7 +115,6 @@ Citizen.CreateThread(function()
         false, false, false, false, 2, true
     )
 
-
     local function onChecked (checked) checkbox = checked end
 
     local function onCombo (currentIndex, selectedIndex)
@@ -134,16 +123,16 @@ Citizen.CreateThread(function()
     end
 
     while true do
+
+
+        camRot = GetGameplayCamRot()
+        SetEntityHeading(MENU, camRot.z) -- FIXME DOESNT THIS WORK WHEN PINNED?
+
+        if WarMenu.IsMenuOpened('test') then
         ClearDrawOrigin()
         SetTextRenderId(MENU_HANDLE)
     	Set_2dLayer(4)
     	Citizen.InvokeNative(0xC6372ECD45D73BCD, 1) -- clear?
-
-        if WarMenu.IsMenuOpened('test') then
-            camRot = GetGameplayCamRot()
-
-            SetEntityHeading(MENU, camRot.z) -- FIXME DOESNT THIS WORK WHEN PINNED?
-
             if WarMenu.CheckBox('Checkbox', checkbox, onChecked) then
 
             elseif WarMenu.ComboBox('Combobox', items, currentItemIndex, selectedItemIndex, onCombo) then
@@ -159,10 +148,6 @@ Citizen.CreateThread(function()
             WarMenu.Display()
         elseif IsControlJustReleased(0, 244) then --M by default
             WarMenu.OpenMenu('test')
-
-            forward = GetEntityForwardVector(PlayerPedId())
-
-            SetEntityCoords(MENU, coords + forward * 1.0)
         end
 
         SetTextRenderId(GetDefaultScriptRendertargetRenderId())
