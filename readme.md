@@ -24,10 +24,10 @@ Citizen.CreateThread(function ()
 	while true do
 		SetTextRenderId(handle) -- set render target
 		Set_2dLayer(4)
-		Citizen.InvokeNative(0xC6372ECD45D73BCD, 1)
+		SetScriptGfxDrawBehindPausemenu(1)
 			DrawRect(0.5, 0.5, 1.0, 0.5, 255, 0, 0, 255); -- WOAH!
 		SetTextRenderId(GetDefaultScriptRendertargetRenderId()) -- reset
-		Citizen.InvokeNative(0xC6372ECD45D73BCD, 0)
+		SetScriptGfxDrawBehindPausemenu(0)
 		Citizen.Wait(0)
 	end
 end)
@@ -75,10 +75,11 @@ Citizen.CreateThread(function ()
 		SetTvAudioFrontend(0)
 		AttachTvAudioToEntity(entity)
 		SetTextRenderId(handle)
-			Set_2dLayer(4)
-			Citizen.InvokeNative(0xC6372ECD45D73BCD, 1)
+		Set_2dLayer(4)
+		SetScriptGfxDrawBehindPausemenu(1)
 			DrawTvChannel(0.5, 0.5, 1.0, 1.0, 0.0, 255, 255, 255, 255)
 		SetTextRenderId(GetDefaultScriptRendertargetRenderId())
+		SetScriptGfxDrawBehindPausemenu(0)
 		Citizen.Wait(0)
 	end
 end)
@@ -91,15 +92,14 @@ __Set playlist__
 local channel_input = 2
 local channel_name = "PL_STD_CNT"
 local playback_rp = 0
-
-Citizen.InvokeNative(0xF7B38B8305F1FE8B, channel_input, channel_name, playback_rp);
-
+LoadTvChannelSequence(channel_input, channel_name, playback_rp)
 SetTvChannel(channel_input)
 ```
 
-__Is playing clip __
+__Is playing clip__
 ```lua
-Citizen.InvokeNative(0x0AD973CA1E077B60, GetHashKey("end_of_movie_marker"));
+LoadTvChannel(GetHashKey("end_of_movie_marker"))
+
 ```
 
 _See tvplaylists.xml in game files_
